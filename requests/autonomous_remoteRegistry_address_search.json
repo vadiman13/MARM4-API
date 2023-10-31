@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Автономные территории. Запрос АТ в регионе",
+        "url": "https://marm.nalog.gov.ru:9085/autonomous/remoteRegistry/address/search?regionId=1"
+    }
+]

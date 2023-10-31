@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. Розница. Стоимость. Запрос стоимости продуктовой корзины по датам",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/consumerbasket/consumerbasketprice"
+    }
+]

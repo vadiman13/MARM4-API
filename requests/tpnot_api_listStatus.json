@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Среда ККТ. Информирование. Запрос списка рассылок",
+        "url": "https://marm.nalog.gov.ru:9085/tpnot/api/listStatus?page=0&perPage=20&dateFrom=30-09-2023&dateTo=31-10-2023"
+    }
+]

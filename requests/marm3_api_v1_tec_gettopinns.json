@@ -1,6 +1,6 @@
 [
     {
-        "name": "Запрос статистики",
+        "name": "Экономика. ТЭК. Запрос ТОП-50 НП ТЭК",
         "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/tec/gettopinns"
     }
 ]

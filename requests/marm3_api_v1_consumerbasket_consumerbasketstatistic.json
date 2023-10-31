@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. Розница. Средняя цена. Запрос стоимости товара из списка драйверов роста",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/consumerbasket/consumerbasketstatistic?baskets=30"
+    }
+]

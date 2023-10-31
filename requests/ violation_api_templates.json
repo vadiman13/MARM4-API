@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Среда ККТ. Шаблоны. Запрос списка шаблонов",
+        "url": "https://marm.nalog.gov.ru:9085/violation/api/templates"
+    }
+]

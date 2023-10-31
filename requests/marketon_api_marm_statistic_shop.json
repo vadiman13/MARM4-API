@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Рынки. Запрос статистики тестового рынка",
+        "url": "https://marm.nalog.gov.ru:9085/marketon/api/marm/statistic/shop?shopId=2687"
+    }
+]

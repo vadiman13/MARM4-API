@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. ТЭК. Запрос цены за литр топлива",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/tec/gettotaltypesum"
+    }
+]

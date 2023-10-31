@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Автономные территории. Запрос списка органов исполнительной власти",
+        "url": "https://marm.nalog.gov.ru:9085/autonomous/remoteRegistry/government/list"
+    }
+]

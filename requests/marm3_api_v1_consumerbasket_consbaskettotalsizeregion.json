@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. Розница. Объем потребления. Запрос объема потребления по регионам",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/consumerbasket/consbaskettotalsizeregion?baskets=30&begin=2017-01-01%2012:00:00&end=2023-10-30%2012:00:00"
+    }
+]

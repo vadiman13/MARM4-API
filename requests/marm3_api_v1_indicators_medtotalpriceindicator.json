@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. Индикаторы. Доля медикаментов в затратах. Запрос показателей выручки медикаментов по регионам",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/indicators/medtotalpriceindicator"
+    }
+]

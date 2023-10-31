@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. Розница. Средняя цена. Запрос списка основных драйверов роста стоимости продуктовой корзины",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/consumerbasket/basicconsumerbaskets"
+    }
+]

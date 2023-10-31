@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Среда ККТ. Поиск нарушений. Запрос списков josb's",
+        "url": "https://marm.nalog.gov.ru:9085/violation/api/jobs/violations"
+    }
+]

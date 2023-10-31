@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Среда ККТ. Реестр нарушений. Запрос комментариев",
+        "url": "https://marm.nalog.gov.ru:9085/violation/api/violations/types"
+    }
+]

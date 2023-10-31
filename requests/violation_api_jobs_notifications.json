@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Контроль. Среда ККТ. Рассылки. Запрос списка рассылок",
+        "url": "https://marm.nalog.gov.ru:9085/violation/api/jobs/notifications"
+    }
+]

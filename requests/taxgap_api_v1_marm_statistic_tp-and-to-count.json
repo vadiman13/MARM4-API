@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Карта. Запрос кол-ва ТТ и ТО",
+        "url": "https://marm.nalog.gov.ru:9085/taxgap/api/v1/marm/statistic/tp-and-to-count"
+    }
+]

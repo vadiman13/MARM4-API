@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Экономика. Анализ ТП. Запрос данных для диаграммы динамики средней цены анализа ТП",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/diagram/gettotalsumdiagram/12453/false?dateFrom=2022-10-31T13:20:09.559Z&dateTo=2023-10-31T13:20:09.559Z"
+    }
+]

@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Статистика. Основная. Запрос общего НДС в день",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/statistic/nds?dateFrom=2022-10-30T13:25:30.465Z&dateTo=2023-10-30T13:25:30.465Z"
+    }
+]

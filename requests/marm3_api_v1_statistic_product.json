@@ -1,0 +1,6 @@
+[
+    {
+        "name": "Статистика. Основная. Запрос выручки по видам деятельности",
+        "url": "https://marm.nalog.gov.ru:9085/marm3/api/v1/statistic/product?dateFrom=2022-10-30T13:25:30.465Z&dateTo=2023-10-30T13:25:30.465Z"
+    }
+]
