@@ -47,9 +47,9 @@ def execute_request(request_name, url, auth_token, duration_time=None):
             else:
                 # Получение времени выполнения запроса
                 duration = response.elapsed.total_seconds()
-                file.write(f"Скорость выполнения запроса: {marker} {duration} сек\n")
+                file.write(f"Скорость выполнения запроса: {duration} сек\n")
                 if marker == "🔴":
-                    file.write(f"Бизнес-лимит: {str(duration_time)} сек.\n")
+                    file.write(f"🔴Бизнес-лимит: {str(duration_time)} сек.\n")
                 file.write("\n")
 
         print("Результаты записаны в файл.")
@@ -143,7 +143,7 @@ def send_email():
     # Заполнение полей письма
     msg['From'] = email
     if has_errors:
-        msg['To'] = 'kotyukovvv@rambler.ru, kotyukovvv@gmail.com'
+        msg['To'] = 'kotyukovvv@rambler.ru, sergei.semenov@stm-labs.ru, svetlana.okladnova@stm-labs.ru'
     else:
         msg['To'] = 'kotyukovvv@rambler.ru'
     msg['Subject'] = subject
