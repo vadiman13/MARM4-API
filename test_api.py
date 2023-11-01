@@ -43,15 +43,21 @@ def execute_request(request_name, url, auth_token, duration_time=None):
             file.write(f"URL запроса: {url}\n")
             file.write(f"Статус ответа: {status}\n")
             if status == 500:
-                file.write("🔴internal server error")
+                file.write("internal server error")
                 file.write("\n")
             else:
                 # Получение времени выполнения запроса
                 duration = response.elapsed.total_seconds()
                 file.write(f"Скорость выполнения запроса: {duration} сек\n")
-                if marker == "🔴":
-                    file.write(f"🔴Бизнес-лимит: {str(duration_time)} сек.\n")
+                if status == 200 and duration > duration_time:
+                    file.write(f"Бизнес-лимит: {str(duration_time)} сек.\n")
             file.write("\n")
+
+    except Exception as e:
+        print("Бизнес-лимит запроса не установлен - переход к следующему запросу", e)
+        with open('test_results.txt', 'a', encoding='utf-8') as file:
+            file.write("\n")
+
 
         print("Результаты записаны в файл.")
     except requests.exceptions.RequestException as e:
