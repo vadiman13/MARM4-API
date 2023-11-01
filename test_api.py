@@ -43,14 +43,15 @@ def execute_request(request_name, url, auth_token, duration_time=None):
             file.write(f"URL запроса: {url}\n")
             file.write(f"Статус ответа: {status}\n")
             if status == 500:
-                file.write("internal server error")
+                file.write("🔴internal server error")
+                file.write("\n")
             else:
                 # Получение времени выполнения запроса
                 duration = response.elapsed.total_seconds()
                 file.write(f"Скорость выполнения запроса: {duration} сек\n")
                 if marker == "🔴":
                     file.write(f"🔴Бизнес-лимит: {str(duration_time)} сек.\n")
-                file.write("\n")
+            file.write("\n")
 
         print("Результаты записаны в файл.")
     except requests.exceptions.RequestException as e:
@@ -62,6 +63,7 @@ def execute_request(request_name, url, auth_token, duration_time=None):
             file.write(f"{marker} {request_name}\n")
             file.write(f"URL запроса: {url}\n")
             file.write(f"Ошибка: {error_message}\n\n")
+            file.write("\n")
         print("Результаты записаны в файл.")
 
 
@@ -143,7 +145,7 @@ def send_email():
     # Заполнение полей письма
     msg['From'] = email
     if has_errors:
-        msg['To'] = 'kotyukovvv@rambler.ru, sergei.semenov@stm-labs.ru, svetlana.okladnova@stm-labs.ru'
+        msg['To'] = 'kotyukovvv@rambler.ru'
     else:
         msg['To'] = 'kotyukovvv@rambler.ru'
     msg['Subject'] = subject
